@@ -1,5 +1,5 @@
 # MobTools
-Commond Tools: 
+Common Tools: 
 LockScreen and Weather Widget
 
 NOTE:
