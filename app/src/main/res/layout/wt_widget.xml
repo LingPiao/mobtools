@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wtWidgetCtn"
+    android:layout_width="300dp"
+    android:layout_height="120dp"
+    android:background="@drawable/my_rounded_bg"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="City>" />
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/city"
+        android:text="Qing" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="03/21" />
+
+    <ImageView
+        android:id="@+id/weatherIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:paddingLeft="3dp"
+        android:src="@drawable/qing" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/weatherIcon"
+        android:paddingLeft="20dp"
+        android:paddingTop="90dp"
+        android:text="12/5℃" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/nextDayPadding">
+
+            <TextView
+                android:id="@+id/day1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nxt1"
+                android:textSize="@dimen/weekDaySize" />
+
+            <ImageView
+                android:id="@+id/day1Icon"
+                android:layout_width="@dimen/nextDayIconSize"
+                android:layout_height="@dimen/nextDayIconSize"
+                android:src="@drawable/dayu" />
+
+            <TextView
+                android:id="@+id/day1Temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/5℃"
+                android:textSize="@dimen/tempSize" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#20FFFFFF"
+            android:paddingLeft="2dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/nextDayPadding">
+
+            <TextView
+                android:id="@+id/day2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nxt2"
+                android:textSize="@dimen/weekDaySize" />
+
+            <ImageView
+                android:id="@+id/day2Icon"
+                android:layout_width="@dimen/nextDayIconSize"
+                android:layout_height="@dimen/nextDayIconSize"
+                android:src="@drawable/xiaoyu" />
+
+            <TextView
+                android:id="@+id/day2Temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/5℃"
+                android:textSize="@dimen/tempSize" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#20FFFFFF"
+            android:paddingLeft="2dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/nextDayPadding">
+
+            <TextView
+                android:id="@+id/day3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nxt3"
+                android:textSize="@dimen/weekDaySize" />
+
+            <ImageView
+                android:id="@+id/day3Icon"
+                android:layout_width="@dimen/nextDayIconSize"
+                android:layout_height="@dimen/nextDayIconSize"
+                android:src="@drawable/xiaoyu" />
+
+            <TextView
+                android:id="@+id/day3Temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/5℃"
+                android:textSize="@dimen/tempSize" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

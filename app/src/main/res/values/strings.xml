@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MobTools</string>
+    <string name="action_settings">About</string>
+    <string name="about.title">About</string>
+    <string name="about.version">Version: V1.0</string>
+    <string name="about.auth">Author:lingpiao.kong@gmail.com</string>
+    <string name="about.lblAppDesc">Commond Tools: \nLockScreen, WIFI etc. \n Weather Widget</string>
+    <string name="about.cp">Copyright©Kong,LingPiao - 2018\n\t\tAll Rights Reserved</string>
+    <string name="widget.locker">Lock</string>
+    <string name="widget.wifi">WIFI</string>
+    <string name="widget.weather.loading">Loading&#8230;</string>
+    <string name="widget.weather.msg.latest">Updated</string>
+    <string name="widget.weather.note">Click to get the weather info after Internet connected</string>
+    <string name="widget.weather.no.inet">Can not get weather info without Internet</string>
+    <string name="widget.weather.config.title">Weather Widget Setting</string>
+    <string name="widget.weather.config.lbl.city">Cities:</string>
+    <string name="widget.weather.config.lbl.city.note">Using comma(,) to separate different cities</string>
+
+</resources>

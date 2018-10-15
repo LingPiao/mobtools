@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobTools</string>
+    <string name="action_settings">关于</string>
+    <string name="about.title">关于</string>
+    <string name="about.version">版本: V1.0</string>
+    <string name="about.auth">作者:lingpiao.kong@gmail.com</string>
+    <string name="about.lblAppDesc">一些Android常用工具:\n 锁屏,WIFI 等工具插件 \n 天气插件</string>
+    <string name="about.cp">Copyright©Kong,LingPiao - 2018\n\t\tAll Rights Reserved</string>
+    <string name="widget.locker">锁屏</string>
+    <string name="widget.wifi">WIFI</string>
+    <string name="widget.weather.loading">加载中&#8230;</string>
+    <string name="widget.weather.msg.latest">已是最新信息</string>
+    <string name="widget.weather.note">打开网络后点击获取天气信息</string>
+    <string name="widget.weather.no.inet">木网络偶不干</string>
+    <string name="widget.weather.config.title">天气插件</string>
+    <string name="widget.weather.config.lbl.city">城市:</string>
+    <string name="widget.weather.config.lbl.city.note">不同城市请用逗号(,)分开</string>
+
+</resources>
